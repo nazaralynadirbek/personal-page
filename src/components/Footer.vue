@@ -24,6 +24,7 @@
     .footer {
         width: 800px;
         margin: 0 auto;
+        padding-bottom: 40px;
 
         .copyright {
             color: #9d9d9d;

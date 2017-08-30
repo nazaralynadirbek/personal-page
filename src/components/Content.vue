@@ -3,8 +3,9 @@
         .top
             .about
                 p
-                  | Almaty-based web developer.#[br]
-                  | Currently building cool stuff using #[span Vue].
+                  | Almaty-based web developer#[br]
+                  | Currently building cool stuff using #[span(class='green') Vue]#[br]
+                  | Student at the #[span(class='blue') Suleyman Demirel University]
         .bottom
             .group
                 .title
@@ -61,7 +62,12 @@
 
         .top {
             margin-bottom: 40px;
-            background-color: #f7f7f7;
+
+            background: rgb(247,247,247);
+            background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(226,226,226,1) 100%);
+            background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(226,226,226,1) 100%);
+            background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(226,226,226,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e2e2e2',GradientType=0 );
 
             .about {
                 width: 800px;
@@ -71,11 +77,17 @@
                 p {
                     font-size: 30px;
                     font-weight: 300;
-                    line-height: 42px;
+                    line-height: 48px;
 
                     span {
                         padding: 2px 6px;
-                        background-color: #fefcc3;
+
+                        &.green {
+                            background-color: #c3fedd;
+                        }
+                        &.blue {
+                            background-color: #c3e0fe;
+                        }
                     }
                 }
             }
@@ -109,8 +121,12 @@
                                 color: #444;
                                 font-size: 18px;
                                 padding-bottom: 10px;
+
+                                &:hover {
+                                    opacity: .7;
+                                }
                             }
-                            
+
                             &:last-child {
                                 margin-right: 0;
                             }
