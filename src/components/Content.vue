@@ -15,7 +15,7 @@
                         li
                             a(href='https://github.com/naznadmn', target='_blank') Go and check some of my works
                         li
-                            a(href='https://www.linkedin.com/in/naznadmn/', target='_blank') Go and check my resume
+                            a(href='static/pdf/Resume.pdf', target='_blank') Go and check my resume
                 .additional
                     p I am always available for work
             .group.experience
@@ -25,7 +25,7 @@
                     ul.list
                         li
                             h3 Web Development
-                            p Node, HTML, CSS & JS
+                            p Node | Python, HTML, CSS & JS (Vue / Angular)
                         li
                             h3 Desktop Development
                             p Node, Electron & Vue
@@ -37,7 +37,7 @@
                         li
                             a(href='https://vk.com/turnernne', target='_blank') vkontakte
                         li
-                            a(href='https://pikabu.ru/profile/naznadmn', target='_blank') pikabu
+                            a(href='https://www.npmjs.com/~naznadmn', target='_blank') npmjs
 </template>
 
 <script>
