@@ -15,7 +15,7 @@
                         li
                             a(href='https://github.com/naznadmn', target='_blank') Go and check some of my works
                         li
-                            a(href='static/pdf/Resume.pdf', target='_blank') Go and check my resume
+                            a(href='static/pdf/resume-06.04.18.pdf', target='_blank') Go and check my resume
                 .additional
                     p I am always available for work
             .group.experience
