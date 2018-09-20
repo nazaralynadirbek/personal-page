@@ -1,7 +1,7 @@
 <template lang="pug">
     .footer
         .copyright
-            p © Nazaraly Nadirbek 2017
+            p © Nazaraly Nadirbek 2017 - 2018
 </template>
 
 <script>

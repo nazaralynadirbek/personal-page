@@ -3,9 +3,8 @@
         .top
             .about
                 p
-                  | Almaty-based web developer#[br]
-                  | Currently building cool stuff using #[span(class='green') Vue]#[br]
-                  | Student at the #[span(class='blue') Suleyman Demirel University]
+                  | Minsk-based web developer#[br]
+                  | #[span(class='blue') Javascript Developer] at #[span(class='green') ITransition Group]#[br]
         .bottom
             .group
                 .title
@@ -25,10 +24,13 @@
                     ul.list
                         li
                             h3 Web Development
-                            p Node | Python, HTML, CSS & JS (Vue / Angular)
+                            p Node, HTML, CSS & JS (Vue / Angular), TS
                         li
                             h3 Desktop Development
                             p Node, Electron & Vue
+                        li
+                            h3 Mobile Development
+                            p React Native
             .group.elsewhere
                 .title
                     h2 Elsewhere
